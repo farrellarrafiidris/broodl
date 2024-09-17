@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         fugaz: ['Fugaz One', 'cursive'],
+        openSans: ['Open Sans', 'sans-serif']
       },
       colors: {
         background: "var(--background)",

@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={ 'w-full max-w-[1000px] mx-auto text-sm sm:text-base min-h-screen flex flex-col ' + `${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={ 'w-full max-w-[1000px] mx-auto text-sm sm:text-base min-h-screen flex flex-col text-slate-800 ' + `${geistSans.variable} ${geistMono.variable} antialiased`}>
         {header}
         {children}
         {footer}
